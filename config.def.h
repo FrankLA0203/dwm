@@ -12,11 +12,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "FuraMono Nerd Font Mono:size=9" };
 static const char dmenufont[]       = "FuraMono Nerd Font Mono:size=9";
-/* static const char col_gray1[]       = "#222222"; */
-/* static const char col_gray2[]       = "#444444"; */
-/* static const char col_gray3[]       = "#bbbbbb"; */
-/* static const char col_gray4[]       = "#eeeeee"; */
-/* static const char col_cyan[]        = "#005577"; */
+static const char col_gray1[]       = "#222222";
+static const char col_gray2[]       = "#444444";
+static const char col_gray3[]       = "#bbbbbb";
+static const char col_gray4[]       = "#eeeeee";
+static const char col_cyan[]        = "#005577";
 static const char col_dark_grey[]     = "#030303";
 static const char col_red[]           = "#ff009e";
 static const char col_white[]         = "#ffffff";
