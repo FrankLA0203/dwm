@@ -20,6 +20,12 @@ static const char col_cyan[]        = "#005577";
 static const char col_dark_grey[]     = "#030303";
 static const char col_red[]           = "#ff009e";
 static const char col_white[]         = "#ffffff";
+static char normbgcolor[]           = "#222222";
+static char normbordercolor[]       = "#444444";
+static char normfgcolor[]           = "#bbbbbb";
+static char selfgcolor[]            = "#eeeeee";
+static char selbordercolor[]        = "#005577";
+static char selbgcolor[]            = "#005577";
 static const char *colors[][3]      = {
        /*               fg         bg         border   */
        [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
