@@ -1051,11 +1051,11 @@ loadxrdb()
 
       if (xrdb != NULL) {
         XRDB_LOAD_COLOR("*.color3", normbordercolor);
-        XRDB_LOAD_COLOR("*.color0", normbgcolor);
-        XRDB_LOAD_COLOR("*.color1", normfgcolor);
+        XRDB_LOAD_COLOR("*.background", normbgcolor);
+        XRDB_LOAD_COLOR("*.foreground", normfgcolor);
         XRDB_LOAD_COLOR("*.color3", selbordercolor);
-        XRDB_LOAD_COLOR("*.color0", selbgcolor);
-        XRDB_LOAD_COLOR("*.color4", selfgcolor);
+        XRDB_LOAD_COLOR("*.background", selbgcolor);
+        XRDB_LOAD_COLOR("*.foreground", selfgcolor);
       }
     }
   }
