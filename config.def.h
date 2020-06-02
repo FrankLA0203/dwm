@@ -69,7 +69,7 @@ static const Layout layouts[] = {
 #define STACKKEYS(MOD,ACTION) \
 	{ MOD, XK_j,     ACTION##stack, {.i = INC(+1) } }, \
 	{ MOD, XK_k,     ACTION##stack, {.i = INC(-1) } }, \
-	{ MOD, XK_grave, ACTION##stack, {.i = PREVSEL } }, \
+	{ MOD, XK_underscore, ACTION##stack, {.i = PREVSEL } }, \
 	{ MOD, XK_w,     ACTION##stack, {.i = 0 } }, \
 	{ MOD, XK_a,     ACTION##stack, {.i = 1 } }, \
 	{ MOD, XK_z,     ACTION##stack, {.i = 2 } }, \
@@ -91,7 +91,7 @@ static Key keys[] = {
 	/* { MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } }, */
 	{ MODKEY|ShiftMask,             XK_Return, focusmaster,    {0} },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
-	{ MODKEY,                       XK_a,      togglegaps,     {0} },
+	{ MODKEY|ShiftMask,             XK_g,      togglegaps,     {0} },
     STACKKEYS(MODKEY,                          focus)
 	STACKKEYS(MODKEY|ShiftMask,                push)
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
