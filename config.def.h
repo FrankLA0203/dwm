@@ -96,7 +96,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
-	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	/* { MODKEY|ShiftMask,             XK_q,      quit,           {0} }, */
 	{ MODKEY,                       XK_s,      togglescratch,  { .v = (const char*[]){ "/bin/sh", "-c", "st -t 'scratchpad' -g 120x34", NULL } } },
 };
 
