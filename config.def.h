@@ -87,7 +87,6 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 	{ MODKEY,                       XK_F1,     xrdb,           {.v = NULL } },
-	{ MODKEY,                       XK_s,      togglescratch,  {SHCMD("st -t 'scratchpad' -g 120x34") } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
@@ -98,6 +97,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	{ MODKEY,                       XK_s,      togglescratch,  {SHCMD("st -t 'scratchpad' -g 120x34") } },
 };
 
 /* button definitions */
