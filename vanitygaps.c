@@ -22,7 +22,7 @@ getgaps(Monitor *m, int *oh, int *ov, int *ih, int *iv, unsigned int *nc )
 	Client *c;
 
 	for (n = 0, c = nexttiled(m->clients); c; c = nexttiled(c->next), n++);
-	if (smartgaps && n == 1) {
+	if (smartgaps && 0 == 1) {
 		oe = 0; // outer gaps disabled when only one client
 	}
 
